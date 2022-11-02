@@ -92,6 +92,42 @@ namespace Exe2
                     mid = (lowerbound + upperbound) / 2;
                     ctr++;
                 }
+                if (item == sarah[mid])
+                    Console.WriteLine("\n" + item.ToString() + " found at position " + (mid + 1).ToString());
+                else
+                    Console.WriteLine("\n" + item.ToString() + " not found in the array \n");
+                Console.WriteLine("\nNumber of comparison : " + ctr);
+
+            } while(true);
+        }
+        static void Main(string[] args)
+        {
+            Program Exercise = new Program();
+            int Menu;
+            char ch;
+            do
+            {
+                do
+                {
+                    Console.WriteLine("Menu");
+                    Console.WriteLine("");
+                    Console.WriteLine("1. BubbleSort");
+                    Console.WriteLine("2. Binary Search");
+                    Console.WriteLine("3. Exit");
+                    Console.Write("1 / 2 / 3 : ");
+                    Menu = Convert.ToInt32(Console.ReadLine());
+                    switch (Menu)
+                    {
+                        case 1:
+                            Console.WriteLine("");
+                            Console.WriteLine("BubbleSort");
+                            Console.WriteLine("");
+                            Exercise.input();
+                            Exercise.BubbleSortArray();
+                            break;
+                        
+                    }
+                }
             }
         }
     }
