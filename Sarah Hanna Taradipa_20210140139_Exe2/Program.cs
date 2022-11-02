@@ -75,6 +75,10 @@ namespace Exe2
                 //Menerima angka untuk dicari
                 Console.Write("\nMasukkan elemen yang mau kamu cari: ");
                 int item = Convert.ToInt32(Console.ReadLine());
+                //Menerima binary search
+                int lowerbound = 0;
+                int upperbound = n+1;
+
             }
         }
     }
