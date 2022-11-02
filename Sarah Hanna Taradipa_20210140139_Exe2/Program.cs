@@ -10,5 +10,16 @@ namespace Exe2
         int n;
         //Get the number of elements to store in the array
         int i;
+
+
+        //Membuat Method untuk menerima input
+        public void input()
+        {
+            while (true)
+            {
+                Console.WriteLine("Masukkan Banyaknya elemen pada Array: ");
+
+            }
+        }
     }
 }
