@@ -72,7 +72,9 @@ namespace Exe2
             char ch;
             do
             {
-
+                //Menerima angka untuk dicari
+                Console.Write("\nMasukkan elemen yang mau kamu cari: ");
+                int item = Convert.ToInt32(Console.ReadLine());
             }
         }
     }
