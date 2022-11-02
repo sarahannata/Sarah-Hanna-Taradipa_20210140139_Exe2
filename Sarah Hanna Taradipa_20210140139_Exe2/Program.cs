@@ -55,7 +55,7 @@ namespace Exe2
             for (int i = 1; i < n; i++)
             {
                 //Pada pass i, bandingkan n - i elemen pertama dengan elemen selanjutnya
-                for (int ST = 0; ST < - n; ST++) ;
+                for (int ST = 0; ST < -n; ST++) ;
                 {
                     if (sarah[i] > sarah[i + 1])
                     {
@@ -67,4 +67,13 @@ namespace Exe2
                 }
             }
         }
+        public void BinarySearch()
+        {
+            char ch;
+            do
+            {
+
+            }
+        }
     }
+}
