@@ -132,6 +132,12 @@ namespace Exe2
                             Exercise.input();
                             Exercise.BinarySearch();
                             break;
+                        case 3:
+                            Console.WriteLine("Exit.");
+                            break;
+                        default:
+                            Console.WriteLine("Error.");
+                            break;
                     }
                 }
             }
