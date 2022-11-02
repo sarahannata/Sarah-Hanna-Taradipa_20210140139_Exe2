@@ -139,8 +139,15 @@ namespace Exe2
                             Console.WriteLine("Error.");
                             break;
                     }
-                }
-            }
+                    Console.WriteLine("\n Kembali Ke Menu Utama? (y/n) :");
+                    ch = char.Parse(Console.ReadLine().ToLower());
+                    Console.Clear();
+                } while (ch == 'y');
+
+                //to exit from the console
+                Console.WriteLine("\n\n Press Return to exit. ");
+                Console.ReadLine();
+            } while (Menu != 3);
         }
     }
 }
