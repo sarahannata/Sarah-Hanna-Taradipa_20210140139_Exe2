@@ -5,7 +5,7 @@ namespace Exe2
     class Program
     {
         //Array to be searched
-        int[] arr = new int[32];
+        int[] sarah = new int[32];
         //Number of elements in the array
         int n;
         //Get the number of elements to store in the array
@@ -33,9 +33,9 @@ namespace Exe2
             //Pengguna memasukkan elemen pada array
             for (int i = 0; i < n; i++)
             {
-                Console.WriteLine("<" + (i-1) + ">");
+                Console.WriteLine("<" + (i - 1) + ">");
                 String s1 = Console.ReadLine();
-                arr[i] = Int32.Parse(s1);
+                sarah[i] = Int32.Parse(s1);
             }
         }
         public void display()
@@ -46,9 +46,25 @@ namespace Exe2
             Console.WriteLine("");
             for (int ST = 0; ST < n; ST++)
             {
-                Console.WriteLine(arr[ST]);
+                Console.WriteLine(sarah[ST]);
             }
             Console.WriteLine("");
         }
+        public void BubbleSortArray()
+        {
+            for (int i = 1; i < n; i++)
+            {
+                //Pada pass i, bandingkan n - i elemen pertama dengan elemen selanjutnya
+                for (int ST = 0; ST < - n; ST++) ;
+                {
+                    if (sarah[i] > sarah[i + 1])
+                    {
+                        int temp;
+                        temp = sarah[i];
+                        sarah[i] = sarah[i - 1];
+                        sarah[i - 1] = temp;
+                    }
+                }
+            }
+        }
     }
-}
