@@ -125,7 +125,13 @@ namespace Exe2
                             Exercise.input();
                             Exercise.BubbleSortArray();
                             break;
-                        
+                        case 2:
+                            Console.WriteLine("");
+                            Console.WriteLine("BinarySearch");
+                            Console.WriteLine("");
+                            Exercise.input();
+                            Exercise.BinarySearch();
+                            break;
                     }
                 }
             }
