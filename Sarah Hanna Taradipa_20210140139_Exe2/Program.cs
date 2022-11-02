@@ -38,6 +38,17 @@ namespace Exe2
                 arr[i] = Int32.Parse(s1);
             }
         }
-       
+        public void display()
+        {
+            //Menampilkan array yang tersusun
+            Console.WriteLine("");
+            Console.WriteLine("Elemen Array yang telah tersusun");
+            Console.WriteLine("");
+            for (int ST = 0; ST < n; ST++)
+            {
+                Console.WriteLine(arr[ST]);
+            }
+            Console.WriteLine("");
+        }
     }
 }
